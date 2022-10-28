@@ -5,7 +5,6 @@
 
 body {
     background-color: rgb(255, 244, 244);
-
 }
 
 .nav_div {
@@ -87,11 +86,6 @@ body {
     text-align: center;
 }
 
-.text-center {
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 .title-style h1 {
     padding: 40px 0;
     text-align: center;
@@ -131,13 +125,13 @@ body {
     z-index: -1;
 }
 
-.pink_panther {
-    margin: 10px;
+.text-center {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.trenddiv {
-    display: inline-block;
-    position: relative;
+.pink_panther {
+    margin: 10px;
 }
 
 .latest_blog {
@@ -145,6 +139,10 @@ body {
     text-align: center;
 }
 
+.trenddiv {
+    display: inline-block;
+    position: relative;
+}
 
 .trend_img {
     width: 380px;
@@ -163,9 +161,11 @@ body {
     left: 50%;
 }
 
-.trenddiv:hover.btn-buy {
-    background-color: rgb(25, 25, 39);
+.btn-buy:hover {
+    cursor: pointer;
+    background-color: #0f0e0e;
     color: white;
+    font-size: 20px;
 }
 
 .subscribe {
@@ -177,16 +177,16 @@ body {
     height: 450px;
 }
 
-.subscribe img {
-
-    width: 400px;
-    height: 400px;
-}
-
 .subscribe1 {
     position: absolute;
     top: 30%;
     left: 10%;
+}
+
+.subscribe img {
+
+    width: 400px;
+    height: 400px;
 }
 
 .subscribe2 {
@@ -198,6 +198,16 @@ body {
     transform: translate(-150px, 60px);
     background: #ffffff8c;
 
+}
+
+.subscribe2 h4 {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subscribe2 p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .subscribe2 a {
@@ -215,32 +225,18 @@ body {
 
 }
 
-.subscribe2 p {
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.subscribe2 h4 {
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-}
+/*------ ofer --- */
 
 .ofer {
     margin: 100px;
-}
-
-.blogdiv {
-    display: inline-block;
 }
 
 .blog_img {
     text-align: center;
 }
 
-.blog_img h5 {
-    margin-top: 20px;
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
+.blogdiv {
+    display: inline-block;
 }
 
 .blogimg_size {
@@ -249,6 +245,13 @@ body {
     margin: 10px;
 }
 
+.blog_img h5 {
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ----------fation brands------- */
 
 .fation_brands {
     text-align: center;
@@ -269,15 +272,17 @@ body {
     box-shadow: 0 2px 40px 0 rgba(110, 130, 208, .18);
 }
 
-.border {
-    border-radius: 50%;
-}
-
 .brand_img img {
     width: 100px;
     height: 100px;
     margin: 50px;
 }
+
+.border {
+    border-radius: 50%;
+}
+
+/* ----------footer------- */
 
 .footer {
     margin: 100px 0 0;
@@ -290,6 +295,10 @@ body {
     float: left;
     text-align: center;
     margin-left: 100px;
+}
+.footer h5 {
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .payment {
@@ -305,20 +314,6 @@ body {
 .img_app {
     width: 200px;
     margin-left: 50px;
-}
-
-.footer-icons {
-    text-align: right;
-}
-
-.footer-icons .fa {
-    margin: 0 10px auto;
-    font-size: 20px;
-}
-
-.footer h5 {
-    font-size: larger;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .final_div {
